@@ -4,10 +4,7 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
-<<<<<<< HEAD
     "axios": "^0.27.2",
-=======
->>>>>>> 95dc7ac7a6ea01200df1ed53b0c202cd62667346
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
