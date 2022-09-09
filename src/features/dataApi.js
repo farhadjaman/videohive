@@ -1,7 +1,8 @@
 import axios from "../utils/axios"
 
-const fetchData = async (tag) => {
+const getData = async (tag) => {
   const res = await axios.get(tag)
   return res.data;
 }
-export default fetchData
+
+export default getData;

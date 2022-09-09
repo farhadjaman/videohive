@@ -1,7 +1,7 @@
 import axios from "../utils/axios"
 
 const fetchVideos = async (tags, search) => {
-  console.log("comming here", tags)
+
   let queryString = "";
   if (tags?.length > 0)
     queryString += '?' + tags.map((tag) => `tags_like=${tag}`).join('&');
