@@ -11,7 +11,7 @@ import Error from '../../utils/Error'
 const VideoComponents = () => {
     const { videoId } = useParams();
     const dispatch = useDispatch()
-    const { video, isLoading, isError, error } = useSelector(store => store.video)
+    const { video, isLoading, isError } = useSelector(store => store.video)
 
 
     useEffect(() => {

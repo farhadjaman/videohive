@@ -10,7 +10,7 @@ export const VideoGrid = () => {
 
 
   const dispatch = useDispatch();
-  const { videos, isLoading, isError, error } = useSelector(store => store.videos)
+  const { videos, isLoading, isError } = useSelector(store => store.videos)
   const { tags, search } = useSelector(store => store.filters)
 
 

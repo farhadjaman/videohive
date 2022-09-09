@@ -1,7 +1,7 @@
 import React from 'react'
 import VideoComponents from '../components/Video page/VideoComponents'
 import RelatedVideos from '../components/Video page/RelatedVideos'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 const Video = () => {
   const { video } = useSelector(store => store.video)

@@ -7,7 +7,7 @@ import Error from '../utils/Error'
 
 const Tags = () => {
 
-  const { tags, isLoading, isError, error } = useSelector(store => store.tags)
+  const { tags, isLoading, isError } = useSelector(store => store.tags)
 
   const dispatch = useDispatch()
   useEffect(() => {
