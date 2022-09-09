@@ -18,7 +18,7 @@ const VideoComponents = () => {
         dispatch(fetchvideo(videoId))
     }, [dispatch, videoId])
 
-    const { link, title, tags } = video || {}
+    const { link, title } = video || {}
     let content;
     if (isLoading) content = <Loading />
     if (!isLoading && isError) content = <Error />
